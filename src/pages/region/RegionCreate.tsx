@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Region from "../api/Region";
+import Region from "@/api/Region";
 
 export default function RegionCreate(props: any) {
   const [value, setValue] = useState<any>({

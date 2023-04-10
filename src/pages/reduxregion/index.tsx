@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Region from "../api/Region";
+import Region from "@/api/Region";
 import Layout from "@/component/layout";
 import { useDispatch, useSelector } from "react-redux";
-import { DelRegionRequest, GetRegionRequest } from "../redux-saga/action/regionAction";
+import { DelRegionRequest, GetRegionRequest } from "@/redux-saga/action/regionAction";
 import FormikRegionCreate from "./RegionFormixCreate";
 import FormikRegionUpdate from "./RegionFormixUpdate";
 

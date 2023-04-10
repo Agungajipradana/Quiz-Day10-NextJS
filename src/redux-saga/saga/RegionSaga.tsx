@@ -1,5 +1,5 @@
 import { call, put } from "redux-saga/effects";
-import Region from "@/pages/api/Region";
+import Region from "@/api/Region";
 import { GetRegionSuccess, GetRegionFailed, AddRegionSuccess, AddRegionFailed, FindRegionSuccess, FindRegionFailed, EditRegionSuccess, EditRegionFailed, DelRegionSuccess, DelRegionFailed } from "../action/regionAction";
 
 function* handleGetRegion() {

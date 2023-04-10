@@ -2,7 +2,7 @@ import { useFormik } from "formik";
 import React, { useState } from "react";
 import Region from "../api/Region";
 import { useDispatch } from "react-redux";
-import { AddRegionRequest } from "../redux-saga/action/regionAction";
+import { AddRegionRequest } from "@/redux-saga/action/regionAction";
 
 export default function FormikRegionCreate(props: any) {
   const dispatch = useDispatch();

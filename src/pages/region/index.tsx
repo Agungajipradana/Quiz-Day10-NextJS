@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Region from "../api/Region";
+import Region from "@/api/Region";
 import RegionCreate from "./RegionCreate";
 import RegionUpdate from "./RegionUpdate";
 import Layout from "@/component/layout";
@@ -54,6 +54,7 @@ export default function RegionView() {
                 </thead>
                 <tbody>
                   {region &&
+                    Array.isArray(region) &&
                     region.map((item) => {
                       return (
                         <>
